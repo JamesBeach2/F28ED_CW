@@ -1,0 +1,116 @@
+{
+    "hotels": [
+        {
+            "id":1,
+            "name": "Hilton Hawaiian Village Waikiki Beach Resort",
+            "desc":,
+            "location": "Honolulu",
+            "star_rating":4,
+            "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/19010438.webp?k=a3adaf578dd2a3e4a6418fa5b811cfecb29bea4bfd4bbcc72058b49c4571cf43&o=",
+            "booking_href":"https://www.booking.com/hotel/us/hilton-hawaiian-village.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaFCIAQGYAQm4ARfIAQ_YAQHoAQH4AQuIAgGoAgO4Aojvhf0FwAIB0gIkZWI3NDZlMTYtNjFkZC00ODgwLWJlZWYtODQyNjA1NGY0NGE22AIG4AIB&sid=aedf973ed27e66fa184670f6adf471c5&dest_id=2996&dest_type=region&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&sr_order=popularity&srepoch=1604417429&srpvid=577f6d0acdc7004d&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
+        },
+
+        {
+            "id":2,
+            "name":"Hyatt Regency Maui Resort & Spa",
+            "desc":,
+            "location": "Maui",
+            "star_rating":4,
+            "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/228020335.webp?k=b207acc39e2d0e16dda7654183029bcea1cceee7a0b4a949bc6414508e5a65af&o=",
+            "booking_href": "https://www.booking.com/hotel/us/hyatt-regency-maui-resort-spa.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaFCIAQGYAQm4ARfIAQ_YAQHoAQH4AQuIAgGoAgO4Aojvhf0FwAIB0gIkZWI3NDZlMTYtNjFkZC00ODgwLWJlZWYtODQyNjA1NGY0NGE22AIG4AIB&sid=aedf973ed27e66fa184670f6adf471c5&dest_id=2996&dest_type=region&group_adults=2&group_children=0&hapos=2&hpos=2&no_rooms=1&sr_order=popularity&srepoch=1604417429&srpvid=577f6d0acdc7004d&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
+        },
+
+        {
+            "id":3,
+            "name": "Aston Maui Kaanapali Villas",
+            "desc":,
+            "location": "Maui",
+            "star_rating":4,
+            "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/65470362.webp?k=916b51339bbb348210feee0570a443bc2e96e6eeecb6abbfdc0ec589fe896ccb&o=",
+            "booking_href":"https://www.booking.com/hotel/us/aston-maui-kaanapali-villas.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaFCIAQGYAQm4ARfIAQ_YAQHoAQH4AQuIAgGoAgO4Aojvhf0FwAIB0gIkZWI3NDZlMTYtNjFkZC00ODgwLWJlZWYtODQyNjA1NGY0NGE22AIG4AIB&sid=aedf973ed27e66fa184670f6adf471c5&dest_id=2996&dest_type=region&group_adults=2&group_children=0&hapos=5&hpos=5&no_rooms=1&sr_order=popularity&srepoch=1604417429&srpvid=577f6d0acdc7004d&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
+        },
+
+        {
+            "id":4,
+            "name":"Andaz Maui at Wailea Resort",
+            "desc":,
+            "location":"Maui",
+            "star_rating":4,
+            "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/110316499.webp?k=437e7292300537a3d49ac87114382a1c7296360e1d2c791a7fe55bc779d883a2&o=",
+            "booking_href":"https://www.booking.com/hotel/us/andaz-maui-at-wailea.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaFCIAQGYAQm4ARfIAQ_YAQHoAQH4AQuIAgGoAgO4Aojvhf0FwAIB0gIkZWI3NDZlMTYtNjFkZC00ODgwLWJlZWYtODQyNjA1NGY0NGE22AIG4AIB&sid=aedf973ed27e66fa184670f6adf471c5&dest_id=2996&dest_type=region&group_adults=2&group_children=0&hapos=6&hpos=6&no_rooms=1&sr_order=popularity&srepoch=1604417429&srpvid=577f6d0acdc7004d&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
+        },
+
+
+        {
+            "id":,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        
+        
+
+
+    ]
+  
+}
