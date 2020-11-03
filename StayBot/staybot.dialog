@@ -41,6 +41,38 @@
                   "dialog": "consentForm"
                 }
               ]
+            },
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "1WMVo2"
+              },
+              "condition": "user.consent == 'Yes'",
+              "elseActions": [
+                {
+                  "$kind": "Microsoft.EndDialog",
+                  "$designer": {
+                    "id": "YCMmgz"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "1IWLNW"
+                  },
+                  "activity": "${SendActivity_1IWLNW()}"
+                },
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "qtLCHO"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "getHotel"
+                }
+              ]
             }
           ],
           "value": "dialog.foreach.value"
