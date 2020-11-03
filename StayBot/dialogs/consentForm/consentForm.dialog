@@ -1,0 +1,82 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "OLkYsL",
+    "name": "consentForm",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "Re07SG"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "QhI3H4"
+          },
+          "activity": "${SendActivity_QhI3H4()}"
+        },
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "TJnRlm"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_TJnRlm()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true
+          },
+          "choices": [
+            {
+              "value": "Yes"
+            },
+            {
+              "value": "No"
+            }
+          ],
+          "property": "user.consent"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "bZ0Djf"
+          },
+          "condition": "user.consent == 'Yes'",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "Inof45"
+              },
+              "activity": "${SendActivity_Inof45()}"
+            },
+            {
+              "$kind": "Microsoft.SignOutUser",
+              "$designer": {
+                "id": "d0BlBz"
+              },
+              "userId": "=user.id"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "consentForm.lg",
+  "recognizer": "consentForm.lu.qna",
+  "id": "consentForm"
+}

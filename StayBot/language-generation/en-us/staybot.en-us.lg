@@ -1,4 +1,2 @@
 [import](common.lg)
 
-# SendActivity_Welcome
-- ${WelcomeUser()}

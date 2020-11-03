@@ -33,16 +33,17 @@
               "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "859266",
-                    "name": "Send a response"
+                    "id": "OTHecV"
                   },
-                  "activity": "${SendActivity_Welcome()}"
+                  "activityProcessed": true,
+                  "dialog": "consentForm"
                 }
               ]
             }
-          ]
+          ],
+          "value": "dialog.foreach.value"
         }
       ]
     }
