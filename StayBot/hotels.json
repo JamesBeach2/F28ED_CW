@@ -1,7 +1,134 @@
 {
+    "_comment": "4*5 = 20 hotels in total all in Hawaian island of Oahu",
     "hotels": [
+        
         {
             "id":1,
+            "name": 
+            "desc":,
+            "location": 
+            "star_rating":1,
+            "image_href": 
+            "booking_href":
+        },
+        
+        {
+            "id":2,
+            "name": 
+            "desc":,
+            "location": 
+            "star_rating":1 ,
+            "image_href": 
+            "booking_href":
+        },
+        
+        {
+            "id":3,
+            "name": 
+            "desc":,
+            "location": 
+            "star_rating":1,
+            "image_href": 
+            "booking_href":
+        },
+        
+        {
+            "id":4,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":1,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":5,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":2,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":6,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":2,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":7,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":2,
+            "image_href":,
+            "booking_href":,
+        },
+        {
+            "id":8,
+            "name": 
+            "desc":,
+            "location": 
+            "star_rating"2:
+            "image_href": 
+            "booking_href":
+        },
+        
+        {
+            "id":9,
+            "name": 
+            "desc":,
+            "location": 
+            "star_rating"3:
+            "image_href": 
+            "booking_href":
+        },
+        
+        {
+            "id":10,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":3,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":11,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":3,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+        {
+            "id":12,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":3,
+            "image_href":,
+            "booking_href":,
+        },
+        
+        
+        {
+            "id":13,
             "name": "Hilton Hawaiian Village Waikiki Beach Resort",
             "desc":,
             "location": "Honolulu",
@@ -11,7 +138,7 @@
         },
 
         {
-            "id":2,
+            "id":14,
             "name":"Hyatt Regency Maui Resort & Spa",
             "desc":,
             "location": "Maui",
@@ -21,7 +148,7 @@
         },
 
         {
-            "id":3,
+            "id":15,
             "name": "Aston Maui Kaanapali Villas",
             "desc":,
             "location": "Maui",
@@ -31,7 +158,7 @@
         },
 
         {
-            "id":4,
+            "id":16,
             "name":"Andaz Maui at Wailea Resort",
             "desc":,
             "location":"Maui",
@@ -40,75 +167,47 @@
             "booking_href":"https://www.booking.com/hotel/us/andaz-maui-at-wailea.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaFCIAQGYAQm4ARfIAQ_YAQHoAQH4AQuIAgGoAgO4Aojvhf0FwAIB0gIkZWI3NDZlMTYtNjFkZC00ODgwLWJlZWYtODQyNjA1NGY0NGE22AIG4AIB&sid=aedf973ed27e66fa184670f6adf471c5&dest_id=2996&dest_type=region&group_adults=2&group_children=0&hapos=6&hpos=6&no_rooms=1&sr_order=popularity&srepoch=1604417429&srpvid=577f6d0acdc7004d&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
         },
 
-
         {
-            "id":,
+            "id":17,
             "name":,
             "desc":,
             "location":,
-            "star_rating":,
+            "star_rating":5,
             "image_href":,
             "booking_href":,
         },
-
-
         {
-            "id":,
-            "name":,
+            "id":18,
+            "name": 
             "desc":,
-            "location":,
-            "star_rating":,
-            "image_href":,
-            "booking_href":,
+            "location": 
+            "star_rating"5:
+            "image_href": 
+            "booking_href":
         },
-
-
-        {
-            "id":,
-            "name":,
-            "desc":,
-            "location":,
-            "star_rating":,
-            "image_href":,
-            "booking_href":,
-        },
-
-
-        {
-            "id":,
-            "name":,
-            "desc":,
-            "location":,
-            "star_rating":,
-            "image_href":,
-            "booking_href":,
-        },
-
-
-        {
-            "id":,
-            "name":,
-            "desc":,
-            "location":,
-            "star_rating":,
-            "image_href":,
-            "booking_href":,
-        },
-
-
-        {
-            "id":,
-            "name":,
-            "desc":,
-            "location":,
-            "star_rating":,
-            "image_href":,
-            "booking_href":,
-        },
-
-
         
+        {
+            "id":19,
+            "name": 
+            "desc":,
+            "location": 
+            "star_rating"5:
+            "image_href": 
+            "booking_href":
+        },
         
+        {
+            "id":20,
+            "name":,
+            "desc":,
+            "location":,
+            "star_rating":5,
+            "image_href":,
+            "booking_href":,
+        },
+
+
+
 
 
     ]
