@@ -22,6 +22,40 @@
             "id": "OvYlnG"
           },
           "activity": "${SendActivity_OvYlnG()}"
+        },
+        {
+          "$kind": "Microsoft.NumberInput",
+          "$designer": {
+            "id": "95WVfK"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${NumberInput_Prompt_95WVfK()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "property": "user.star_rating"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "1zdKqx"
+          },
+          "activity": "${SendActivity_1zdKqx()}"
+        },
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "U5EvmG"
+          },
+          "method": "GET",
+          "url": "hotels.json/star_rating=${user.star_rating}",
+          "resultProperty": "dialog.json_response",
+          "contentType": "application/json",
+          "responseType": "json"
         }
       ]
     }

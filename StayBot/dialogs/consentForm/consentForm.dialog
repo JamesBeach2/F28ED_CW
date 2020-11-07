@@ -38,7 +38,10 @@
           "invalidPrompt": "",
           "defaultValueResponse": "",
           "choiceOptions": {
-            "includeNumbers": true
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
           },
           "choices": [
             {

@@ -1,4 +1,8 @@
 [import](common.lg)
 
 # SendActivity_OvYlnG()
-- TEST TEST TEST
+- We will help you find your ideal hotel in the island of Oahu, Hawaii...
+# NumberInput_Prompt_95WVfK()
+- What star rating are you looking for in a hotel?
+# SendActivity_1zdKqx()
+- Okay, so you are looking for a ${user.star_rating} star hotel, let us take a look for you...
