@@ -65,11 +65,10 @@
               "activity": "${SendActivity_Inof45()}"
             },
             {
-              "$kind": "Microsoft.SignOutUser",
+              "$kind": "Microsoft.EndDialog",
               "$designer": {
-                "id": "d0BlBz"
-              },
-              "userId": "=user.id"
+                "id": "5LnVjH"
+              }
             }
           ]
         }
