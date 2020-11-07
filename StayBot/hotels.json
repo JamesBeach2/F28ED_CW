@@ -79,7 +79,7 @@
             "name":"Ewa Hotel Waikiki" 
             "desc":,
             "location":"Oahu" 
-            "star_rating"2:
+            "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/162870744.webp?k=58ea04b8caf4504c5af73822a4c166d3369db91d58a674d3fa16a031dcfde02b&o=", 
             "booking_href":"https://www.booking.com/hotel/us/ewa-waikiki.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=14;hpos=14;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
         },
@@ -89,7 +89,7 @@
             "name":"Sheraton Princess Kaiulani", 
             "desc":,
             "location":"Oahu" 
-            "star_rating"3:
+            "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/253106772.webp?k=f033fabb12412642b97cb01e6bf2c1e0e474392446ab72d7679ddfd06eb5ebfa&o=", 
             "booking_href":"https://www.booking.com/hotel/us/sheraton-princess-kaiulani.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=33;hpos=8;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604421623;srpvid=1d9f753b1e3b013e;type=total;ucfs=1&#hotelTmpl",
         },
@@ -181,7 +181,7 @@
             "name":"The Kahala Hotel and Resort", 
             "desc":,
             "location":"Oahu" 
-            "star_rating"5:
+            "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/18678668.webp?k=43c3c8f3df966e33048a2550c73711bc611973d9aa770eaff8f2ec84c139d5a5&o=", 
             "booking_href":"https://www.booking.com/hotel/us/the-kahala-and-resort.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=2;hpos=2;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604421825;srpvid=e9de75a0c37c0050;type=total;ucfs=1&#hotelTmpl",
         },
@@ -191,7 +191,7 @@
             "name":"The Residences Waikiki Beach Tower", 
             "desc":,
             "location":"Oahu"
-            "star_rating"5:
+            "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/164573944.webp?k=9660797319f57a4476b7bd86ce0e133eada6054e4fa969928daa0ae67a3db199&o=",
             "booking_href":"https://www.booking.com/hotel/us/the-residences-waikiki-beach-tower.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=5;hpos=5;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604421825;srpvid=e9de75a0c37c0050;type=total;ucfs=1&#hotelTmpl",
         },
