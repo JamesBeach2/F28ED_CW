@@ -50,7 +50,9 @@
                 }
               ]
             }
-          ]
+          ],
+          "value": "dialog.foreach.value",
+          "index": "dialog.foreach.index"
         }
       ]
     }

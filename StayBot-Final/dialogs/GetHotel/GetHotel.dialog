@@ -17,6 +17,521 @@
       },
       "actions": [
         {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "cGdhoK"
+          },
+          "property": "dialog.hotels",
+          "value": {
+            "hotels": [
+              {
+                "id": 1,
+                "name": "Backpackers Vacation Inn and Plantation Village",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 1,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/124838483.webp?k=f013a96eab2e0cd34f027dc31f297cb78bb93fe8242942ab40d0bff02952798c&o=",
+                "booking_href": "https://www.booking.com/hotel/us/backpackers-vacation-inn-and-plantation-village.en-gb.html"
+              },
+              {
+                "id": 2,
+                "name": "Pacific Marina Inn",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 1,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/105261334.webp?k=8659992f2f2ca364459821cd7cb16829832daaf3c03b0e039c023205769c1061&o=",
+                "booking_href": "https://www.booking.com/hotel/us/castle-pacific-marina-inn-airport.en-gb.html"
+              },
+              {
+                "id": 3,
+                "name": "Ohia Waikiki Studio Suites",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 1,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/163010402.webp?k=d9956a71a80528ab0482c2add5614e7d5bd84efb65ee4f0f054a9efeb6d145b2&o=",
+                "booking_href": "https://www.booking.com/hotel/us/ohia-waikiki.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=6;hpos=6;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl"
+              },
+              {
+                "id": 4,
+                "name": "Waikiki Beach Condominiums",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 1,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/931843.webp?k=f9ecc0d952b29ace49ee7896fe7c433c43728036bdc7c6827a4c197711f6d507&o=",
+                "booking_href": "https://www.booking.com/hotel/us/waikiki-beach-condominiums.en-gb.html?aid=397597&label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB&sid=b8df97eb229f29315e29bc9c8c7ab1be&dest_id=3185&dest_type=region&group_adults=2&group_children=0&hapos=8&hpos=8&no_rooms=1&sr_order=class&srepoch=1604421280&srpvid=ac9a7490f97300fc&ucfs=1&from=searchresults#hotelTmpl"
+              },
+              {
+                "id": 5,
+                "name": "Castle Waikiki Grand Hotel",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/39959146.webp?k=032dee8db5ed41ee39b221d1dc10e0ac9480a02af3bafb4a58582e7bd7a9419c&o=",
+                "booking_href": "https://www.booking.com/hotel/us/waikiki-grand.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=7;hpos=7;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl"
+              },
+              {
+                "id": 6,
+                "name": "Marina Tower Waikiki",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/39403910.webp?k=abb36224f2cd820a749e21f6885dbf791aa600ef71c15468265dda6873353306&o=",
+                "booking_href": "https://www.booking.com/hotel/us/aqua-waikiki-martina.en-gb.html"
+              },
+              {
+                "id": 7,
+                "name": "Waikiki Monarch Hotel",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/225952029.webp?k=6e3d6ecc870760d70abadea0bce8e538875c8e977b7bce79d783cf715a415a41&o=",
+                "booking_href": "https://www.booking.com/hotel/us/hawaiian-monarch.en-gb.html"
+              },
+              {
+                "id": 8,
+                "name": "Ewa Hotel Waikiki",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/162870744.webp?k=58ea04b8caf4504c5af73822a4c166d3369db91d58a674d3fa16a031dcfde02b&o=",
+                "booking_href": "https://www.booking.com/hotel/us/ewa-waikiki.en-gb.html"
+              },
+              {
+                "id": 9,
+                "name": "Sheraton Princess Kaiulani",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/253106772.webp?k=f033fabb12412642b97cb01e6bf2c1e0e474392446ab72d7679ddfd06eb5ebfa&o=",
+                "booking_href": "https://www.booking.com/hotel/us/sheraton-princess-kaiulani.en-gb.html"
+              },
+              {
+                "id": 10,
+                "name": "Pacific Monarch",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/163012812.webp?k=1b359bf642e8b44f4d5463162d43ff1825f3c927936d20a9ac6884ced933d34d&o=",
+                "booking_href": "https://www.booking.com/hotel/us/aqua-pacific-monarch.en-gb.html"
+              },
+              {
+                "id": 11,
+                "name": "Mokuleia Beach Houses at Owens Retreat",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/121922101.webp?k=5bee58e40c68adddc0b7f6ed72a71556427a1e278cc919fe81b67ec28b205ea1&o=",
+                "booking_href": "https://www.booking.com/hotel/us/owen-39-s-retreat.en-gb.html"
+              },
+              {
+                "id": 12,
+                "name": "White Sands Hotel",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269320982.webp?k=9dcf981b9732e52e016340d26ea8bcfe1e981b7b6b79688ec320c96657962fd4&o=",
+                "booking_href": "https://www.booking.com/hotel/us/white-sands-honolulu.en-gb.html"
+              },
+              {
+                "id": 13,
+                "name": "Hilton Hawaiian Village Waikiki Beach Resort",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/19010438.webp?k=a3adaf578dd2a3e4a6418fa5b811cfecb29bea4bfd4bbcc72058b49c4571cf43&o=",
+                "booking_href": "https://www.booking.com/hotel/us/hilton-hawaiian-village.en-gb.html"
+              },
+              {
+                "id": 14,
+                "name": "Sheraton Waikiki",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/253306414.webp?k=51b486e2d2507ab4dace4a12d02318731880f2f17f74bca5b6c3cc8e40bd3714&o=",
+                "booking_href": "https://www.booking.com/hotel/us/sheraton-waikiki.en-gb.html"
+              },
+              {
+                "id": 15,
+                "name": "Marriott's Ko Olina Beach Club",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/174704674.webp?k=c09d583f013ea193b70f08b3b76d1775856064a3005fa0d79664ad279d15b830&o=",
+                "booking_href": "https://www.booking.com/hotel/us/marriott-s-ko-olina-beach-club.en-gb.html"
+              },
+              {
+                "id": 16,
+                "name": "Polynesian Hostel Beach Club",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/255720345.webp?k=c8612d160dbc137d8778bfb39acec129e703866fb8ad03a6fc60e849deb532ed&o=",
+                "booking_href": "https://www.booking.com/hotel/us/polynesian-hostel-beach-club.en-gb.html"
+              },
+              {
+                "id": 17,
+                "name": "Espacio The Jewel of Waikiki",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/215997946.webp?k=f83ef14c53f08c6dc0a221523c3386955a8a60a32dfc4d24b6beb80e9469a0a9&o=",
+                "booking_href": "https://www.booking.com/hotel/us/espacio-the-jewel-of-waikiki.en-gb.html"
+              },
+              {
+                "id": 18,
+                "name": "The Kahala Hotel and Resort",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/18678668.webp?k=43c3c8f3df966e33048a2550c73711bc611973d9aa770eaff8f2ec84c139d5a5&o=",
+                "booking_href": "https://www.booking.com/hotel/us/the-kahala-and-resort.en-gb.html"
+              },
+              {
+                "id": 19,
+                "name": "The Residences Waikiki Beach Tower",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164573944.webp?k=9660797319f57a4476b7bd86ce0e133eada6054e4fa969928daa0ae67a3db199&o=",
+                "booking_href": "https://www.booking.com/hotel/us/the-residences-waikiki-beach-tower.en-gb.html"
+              },
+              {
+                "id": 20,
+                "name": "The Ritz-Carlton Residences, Waikiki Beach Hotel",
+                "desc": "",
+                "location": "Oahu",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/218392460.webp?k=40492e4f7366cdcd77d83f99dafde2082ba7f84ad0a6387b2387a20178bb9f2f&o=",
+                "booking_href": "https://www.booking.com/hotel/us/the-ritz-carlton-residences-waikiki-beach.en-gb.html"
+              },
+              {
+                "id": 21,
+                "name": "James Green Corner Hale",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 1,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115480244.webp?k=097f6d48a729a12be07e31c3f60da8fe1306afbc7c8ffbc7654ad7e2f618e9da&o=",
+                "booking_href": "https://www.booking.com/hotel/us/james-green-corner-hale.en-gb.html"
+              },
+              {
+                "id": 22,
+                "name": "Ali Hale",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 1,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/43923682.webp?k=21763b04511fcaf4bcbb7bb2694e4abbbeab463570edd7d2da251a3ec73d413e&o=",
+                "booking_href": "https://www.booking.com/hotel/us/ahi-hale.en-gb.html"
+              },
+              {
+                "id": 23,
+                "name": "Kona Seaside Hotel ",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/184804005.webp?k=de7874195a4acd4aa55de2a76f5d6c662f7376a1aeb8e42329225e450a092131&o=",
+                "booking_href": "https://www.booking.com/hotel/us/kona-seaside.en-gb.html"
+              },
+              {
+                "id": 24,
+                "name": "Hilo Seaside Hotel",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267813046.webp?k=d8cb868f833d46168bfd94370520bfe10445d59d27ab72ec35a0ba6fc43bf417&o=",
+                "booking_href": "https://www.booking.com/hotel/us/hilo-seaside.en-gb.html"
+              },
+              {
+                "id": 25,
+                "name": "Uncle Billy's Kona Bay Hotel",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/48335717.webp?k=2f5333a99e6c240c458968b77737eb3419563c0148b33008ff1d48574aa1fa15&o=",
+                "booking_href": "https://www.booking.com/hotel/us/uncle-billy-s-kona-bay.en-gb.html"
+              },
+              {
+                "id": 26,
+                "name": "Kona Islander",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/133420837.webp?k=48fef4bc94d982dbbc636bb243ec93de97fc19e0851d5da1eaf694c50ae88800&o=",
+                "booking_href": "https://www.booking.com/hotel/us/kona-islander.en-gb.html"
+              },
+              {
+                "id": 27,
+                "name": "Ohana Halei Guest House",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/96053046.webp?k=8f9de6186af21e4aef0847cdaba5ad3583e4fc546ea96ba14e3922c80c50d597&o=",
+                "booking_href": "https://www.booking.com/hotel/us/yoga-hale.en-gb.html"
+              },
+              {
+                "id": 28,
+                "name": "Holua Resort",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208955243.webp?k=687b7215798f131ac2e561f8ab7bd1dcfa0e555c2e9bcf3425d319a548cc2632&o=",
+                "booking_href": "https://www.booking.com/hotel/us/holus-resort.en-gb.html"
+              },
+              {
+                "id": 29,
+                "name": "Royal Kona Resort",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/175926930.webp?k=9e5569ef24582f3f0464354c349a3e0788bb6cd3554114c8c56ed7ad2cbf6b92&o=",
+                "booking_href": "https://www.booking.com/hotel/us/royal-kona-resort.en-gb.html"
+              },
+              {
+                "id": 30,
+                "name": "Holiday Inn Express & Suites Kailua-Kona",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/247732383.webp?k=05fc5a4e6f2a68868e57a69582b5a5bd72b33d2c2b8439c49c6ab749a06652bb&o=",
+                "booking_href": "https://www.booking.com/hotel/us/holiday-inn-express-suites-kailua-kona.en-gb.html"
+              },
+              {
+                "id": 31,
+                "name": "Beach Villas at Kahalu'u",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/136493606.webp?k=26bc855c50396e4b0be26d7258d1e1e1bed8be1868649c74e97f0e4266d60ddf&o=",
+                "booking_href": "https://www.booking.com/hotel/us/beach-villas-at-kahalu-39-u.en-gb.html"
+              },
+              {
+                "id": 32,
+                "name": "Aston Kona By The Sea",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/162866368.webp?k=767765eb818c3b95a17f35d6667d6e07fba333b50f14177492d126cfaecda35f&o=",
+                "booking_href": "https://www.booking.com/hotel/us/aston-kona-by-the-sea.en-gb.html"
+              },
+              {
+                "id": 33,
+                "name": "Kings' Land by Hilton Grand Vacations Club",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/24737612.webp?k=8d41b738c53fbc7641ac77edf5e1d8e4108c2c379b1daefc9b88d0e6b92f8cc2&o=",
+                "booking_href": "https://www.booking.com/hotel/us/kings-land-grand-vacations-club-waikoloa.en-gb.html"
+              },
+              {
+                "id": 34,
+                "name": "Castle Hilo Hawaiian Hotel",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/243244462.webp?k=f5d6b4c7b9c0c1afc16a05e84b64fc0c029e2e1421370470bf5ddd7ca8534ba4&o=",
+                "booking_href": "https://www.booking.com/hotel/us/castle-hilo-hawaiian.en-gb.html"
+              },
+              {
+                "id": 35,
+                "name": "Castle Halii Kai at Waikoloa",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/70965779.webp?k=76b57c0040ea20a1da0e24265b5065b723826199b276893983392ee403828ac0&o=",
+                "booking_href": "https://www.booking.com/hotel/us/castle-halii-kai-at-waikoloa.en-gb.html"
+              },
+              {
+                "id": 36,
+                "name": "Mauna Lani Point",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/228002381.webp?k=aea612ac9327de7d443254aa9d61f2e64d162250a832ddeada7bd127b1ae4367&o=",
+                "booking_href": "https://www.booking.com/hotel/us/mauna-lani-point.en-gb.html"
+              },
+              {
+                "id": 37,
+                "name": "Fairmont Orchid",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/21710008.webp?k=17bd3bbcf773686c4aa2a5329015da9c381a812c3e87ade1668d4835445d17d2&o=",
+                "booking_href": "https://www.booking.com/hotel/us/the-fairmont-orchid.en-gb.html"
+              },
+              {
+                "id": 38,
+                "name": "Holualoa Inn",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/46265190.webp?k=c4c5ff04bcadbbc230b6d4ee0b2164c51caf4c32c35aefb72f03ed995e213344&o=",
+                "booking_href": "https://www.booking.com/hotel/us/holualoa-inn.en-gb.html"
+              },
+              {
+                "id": 39,
+                "name": "Aston Waikoloa Colony Villas",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/114543409.webp?k=e7dcdc30a7c1c6f3a4bf2f1bdc55ed2ac70886f73113ae8c4465a7d73b9748fc&o=",
+                "booking_href": "https://www.booking.com/hotel/us/aston-waikoloa-colony-villas.en-gb.html"
+              },
+              {
+                "id": 40,
+                "name": "Lilikoi Inn",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/31247412.webp?k=67d1caa79cf8da741fe27824ab3649a6274b95f473ba637737ff8984325e93b4&o=",
+                "booking_href": "https://www.booking.com/hotel/us/lilikoi-inn.en-gb.html"
+              },
+              {
+                "id": 41,
+                "name": "Volcano Big Tree Sanctuary",
+                "desc": "",
+                "location": "Island of Hawai'i",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/17337489.webp?k=7ffd40d88a95b233ec3d333bd16eefa636ee70ff952bc4df14b4bad633559e7f&o=",
+                "booking_href": "https://www.booking.com/hotel/us/volcano-big-tree-sanctuary.en-gb.html"
+              },
+              {
+                "id": 42,
+                "name": "Kaanapali Ocean Inn",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/89436873.webp?k=fc05611d487a24db129f1d646bcd8aaf71c99a603808a97c9a7c60583ce9a43d&o=",
+                "booking_href": "https://www.booking.com/hotel/us/kaanapali-ocean-inn.en-gb.html"
+              },
+              {
+                "id": 43,
+                "name": "Maui Seaside Hotel",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270883636.webp?k=fd4926160985eedd28e5cffce9343673ff1cee27b1fea55567c1c02ed4e25ec0&o=",
+                "booking_href": "https://www.booking.com/hotel/us/maui-seaside.en-gb.html"
+              },
+              {
+                "id": 44,
+                "name": "Days Inn by Wyndham Maui Oceanfront",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/135461638.webp?k=589a5901f291ee6473d9961667d308f5d5617a205145f421a6aff678a2ead047&o=",
+                "booking_href": "https://www.booking.com/hotel/us/2980-south-kihei-road.en-gb.html"
+              },
+              {
+                "id": 45,
+                "name": "Aston Paki Maui",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 2,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164316006.webp?k=834dd5b4a112230d1cad7c11556b0666a6985b3e6e3c433b6fedfcf07a6d249e&o=",
+                "booking_href": "https://www.booking.com/hotel/us/aston-paki-maui.en-gb.html"
+              },
+              {
+                "id": 46,
+                "name": "Maui Beach Hotel",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/211624070.webp?k=14194ab83eee03ddf9fa102de3cb9b6f1a1bf0862f7876d432a185f97bbe7256&o=",
+                "booking_href": "https://www.booking.com/hotel/us/maui-beach.en-gb.html"
+              },
+              {
+                "id": 47,
+                "name": "Heavenly Hana Paradise",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/129502183.webp?k=3345ae9582fca450fb8f21eacf0514a2f2b1042c499ebc508e09562b8980b56f&o=",
+                "booking_href": "https://www.booking.com/hotel/us/heavenly-hana-paradise.en-gb.html"
+              },
+              {
+                "id": 48,
+                "name": "Aina Nalu Infinity Pool & Cabana Full AC",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273610831.webp?k=120230480a51fa507b372fc108aa1efa04e2ce4a10bdd23c788b8c3c7e2b649e&o=",
+                "booking_href": "https://www.booking.com/hotel/us/aina-nalu-infinity-pool-cabana-full-ac.en-gb.html"
+              },
+              {
+                "id": 49,
+                "name": "Oceanview Condo at Royal Kahana Resort",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 3,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202647190.webp?k=ae02a4c39afcc14e21378a2bacf7f0290e0ca4eedcec28aa946ec906509a735d&o=",
+                "booking_href": "https://www.booking.com/hotel/us/royal-kahana-resort-by-outrigger.en-gb.html"
+              },
+              {
+                "id": 50,
+                "name": "Hyatt Regency Maui Resort & Spa",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/228020335.webp?k=b207acc39e2d0e16dda7654183029bcea1cceee7a0b4a949bc6414508e5a65af&o=",
+                "booking_href": "https://www.booking.com/hotel/us/hyatt-regency-maui-resort-spa.en-gb.html"
+              },
+              {
+                "id": 51,
+                "name": "Aston Maui Kaanapali Villas",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/65470362.webp?k=916b51339bbb348210feee0570a443bc2e96e6eeecb6abbfdc0ec589fe896ccb&o=",
+                "booking_href": "https://www.booking.com/hotel/us/aston-maui-kaanapali-villas.en-gb.html"
+              },
+              {
+                "id": 52,
+                "name": "Andaz Maui at Wailea Resort",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 4,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/110316499.webp?k=437e7292300537a3d49ac87114382a1c7296360e1d2c791a7fe55bc779d883a2&o=",
+                "booking_href": "https://www.booking.com/hotel/us/andaz-maui-at-wailea.en-gb.html"
+              },
+              {
+                "id": 53,
+                "name": "Aston at The Whaler on Kaanapali Beach",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87830891.webp?k=b6d0431c823c7f7a0888f532e8b5e20b9ffff608e2d53c3f070521f9ca41deb8&o=",
+                "booking_href": "https://www.booking.com/hotel/us/the-whaler-on-kaanapali-beach.en-gb.html"
+              },
+              {
+                "id": 54,
+                "name": "Fairmont Kea Lani, Maui",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/21609977.webp?k=fc99aa9780390d48206df5c28a8d1cfdf80116874ad52c9e805dc10acaa7b855&o=",
+                "booking_href": "https://www.booking.com/hotel/us/the-fairmont-kea-lani.en-gb.html"
+              },
+              {
+                "id": 55,
+                "name": "Four Seasons Resort Maui at Wailea",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/89438462.webp?k=57746460e66d81657f6fcecd048e39064ee0a912abb04f0d831f9d593fe775b6&o=",
+                "booking_href": "https://www.booking.com/hotel/us/four-seasons-resort-maui-at-wailea.en-gb.html"
+              },
+              {
+                "id": 56,
+                "name": "Wailea Beach Resort - Marriott, Maui",
+                "desc": "",
+                "location": "Maui",
+                "star_rating": 5,
+                "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/145056054.webp?k=0ab7ea3c23dfbf3a2a9f84c130817cbc48e370a73e5262a300ce84ea8ea397a9&o=",
+                "booking_href": "https://www.booking.com/hotel/us/wailea-marriot.en-gb.html"
+              }
+            ]
+          }
+        },
+        {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
             "id": "4CEoIX"
@@ -71,7 +586,8 @@
           "defaultValueResponse": "",
           "choiceOptions": {
             "includeNumbers": true,
-            "inlineOrMore": ", or "
+            "inlineOrMore": ", or ",
+            "inlineOr": " or "
           },
           "choices": [
             {
@@ -93,39 +609,29 @@
           "property": "user.star_rating"
         },
         {
-          "$kind": "Microsoft.HttpRequest",
+          "$kind": "Microsoft.Foreach",
           "$designer": {
-            "id": "QHDgeO"
+            "id": "TSRE0S"
           },
-          "method": "GET",
-          "url": "http://localhost:3979/hoteltemp.json/hotels?island=${user.island}&star_rating=${user.star_rating}",
-          "resultProperty": "dialog.api_response",
-          "responseType": "json",
-          "contentType": "application/json"
-        },
-        {
-          "$kind": "Microsoft.IfCondition",
-          "$designer": {
-            "id": "PfuP75"
-          },
-          "condition": "dialog.api_response.statusCode == 200",
+          "index": "dialog.foreach.index",
+          "value": "dialog.foreach.value",
+          "itemsProperty": "dialog.hotels",
           "actions": [
             {
-              "$kind": "Microsoft.SetProperty",
+              "$kind": "Microsoft.IfCondition",
               "$designer": {
-                "id": "dhUo2o"
+                "id": "i5IT3o"
               },
-              "property": "dialog.hotel",
-              "value": "= dialog.api_response.content"
-            }
-          ],
-          "elseActions": [
-            {
-              "$kind": "Microsoft.SendActivity",
-              "$designer": {
-                "id": "qLaQWq"
-              },
-              "activity": "${SendActivity_qLaQWq()}"
+              "condition": "user.island == string(dialog.foreach.value.island)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "oEVRAo"
+                  },
+                  "activity": "${SendActivity_oEVRAo()}"
+                }
+              ]
             }
           ]
         }
