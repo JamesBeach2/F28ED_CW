@@ -98,7 +98,7 @@
             "id": "QHDgeO"
           },
           "method": "GET",
-          "url": "http://localhost/hotels.json/hotels/island=${user.island}&star_rating=${user.star_rating}",
+          "url": "http://localhost/hotels.json/hotels?island=${user.island}&star_rating=${user.star_rating}",
           "resultProperty": "dialog.api_response",
           "responseType": "json",
           "contentType": "application/json"
