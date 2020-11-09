@@ -9,7 +9,7 @@
             "location":"Oahu",
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/124838483.webp?k=f013a96eab2e0cd34f027dc31f297cb78bb93fe8242942ab40d0bff02952798c&o=",
-            "booking_href":"https://www.booking.com/hotel/us/backpackers-vacation-inn-and-plantation-village.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#map_closed",
+            "booking_href":"https://www.booking.com/hotel/us/backpackers-vacation-inn-and-plantation-village.en-gb.html?aid=397597",
         },
 
         {
@@ -19,7 +19,7 @@
             "location":"Oahu",
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/105261334.webp?k=8659992f2f2ca364459821cd7cb16829832daaf3c03b0e039c023205769c1061&o=",
-            "booking_href":"https://www.booking.com/hotel/us/castle-pacific-marina-inn-airport.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=3;hpos=3;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/castle-pacific-marina-inn-airport.en-gb.html?aid=397597",
         },
 
         {
@@ -29,7 +29,7 @@
             "location":"Oahu"
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/163010402.webp?k=d9956a71a80528ab0482c2add5614e7d5bd84efb65ee4f0f054a9efeb6d145b2&o=",
-            "booking_href":"https://www.booking.com/hotel/us/ohia-waikiki.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=6;hpos=6;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/ohia-waikiki.en-gb.html?aid=397597",
         },
 
         {
@@ -50,7 +50,7 @@
             "location":"Oahu",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/39959146.webp?k=032dee8db5ed41ee39b221d1dc10e0ac9480a02af3bafb4a58582e7bd7a9419c&o=",
-            "booking_href":"https://www.booking.com/hotel/us/waikiki-grand.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=7;hpos=7;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/waikiki-grand.en-gb.html?aid=397597",
         },
 
 
@@ -61,7 +61,7 @@
             "location":"Oahu",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/39403910.webp?k=abb36224f2cd820a749e21f6885dbf791aa600ef71c15468265dda6873353306&o=",
-            "booking_href":"https://www.booking.com/hotel/us/aqua-waikiki-martina.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=10;hpos=10;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/aqua-waikiki-martina.en-gb.html?aid=397597",
         },
 
 
@@ -72,7 +72,7 @@
             "location":"Oahu",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/225952029.webp?k=6e3d6ecc870760d70abadea0bce8e538875c8e977b7bce79d783cf715a415a41&o=",
-            "booking_href":"https://www.booking.com/hotel/us/hawaiian-monarch.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=11;hpos=11;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/hawaiian-monarch.en-gb.html?aid=397597",
         },
         {
             "id":8,
@@ -81,7 +81,7 @@
             "location":"Oahu"
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/162870744.webp?k=58ea04b8caf4504c5af73822a4c166d3369db91d58a674d3fa16a031dcfde02b&o=",
-            "booking_href":"https://www.booking.com/hotel/us/ewa-waikiki.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=14;hpos=14;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/ewa-waikiki.en-gb.html?aid=397597",
         },
 
         {
@@ -91,7 +91,7 @@
             "location":"Oahu"
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/253106772.webp?k=f033fabb12412642b97cb01e6bf2c1e0e474392446ab72d7679ddfd06eb5ebfa&o=",
-            "booking_href":"https://www.booking.com/hotel/us/sheraton-princess-kaiulani.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=33;hpos=8;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604421623;srpvid=1d9f753b1e3b013e;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/sheraton-princess-kaiulani.en-gb.html?aid=397597",
         },
 
         {
@@ -101,7 +101,7 @@
             "location":"Oahu",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/163012812.webp?k=1b359bf642e8b44f4d5463162d43ff1825f3c927936d20a9ac6884ced933d34d&o=",
-            "booking_href":"https://www.booking.com/hotel/us/aqua-pacific-monarch.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=17;hpos=17;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/aqua-pacific-monarch.en-gb.html?aid=397597",
         },
 
 
@@ -112,7 +112,7 @@
             "location":"Oahu",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/121922101.webp?k=5bee58e40c68adddc0b7f6ed72a71556427a1e278cc919fe81b67ec28b205ea1&o=",
-            "booking_href":"https://www.booking.com/hotel/us/owen-39-s-retreat.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=18;hpos=18;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604419988;srpvid=e32572093b190002;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/owen-39-s-retreat.en-gb.html?aid=397597",
         },
 
 
@@ -123,7 +123,7 @@
             "location":"Oahu",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/269320982.webp?k=9dcf981b9732e52e016340d26ea8bcfe1e981b7b6b79688ec320c96657962fd4&o=",
-            "booking_href":"https://www.booking.com/hotel/us/white-sands-honolulu.en-gb.html?aid=397597;label=gog235jc-1FCAEY7wcoggI46AdIM1gDaFCIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4Av6Chv0FwAIB0gIkMDdhZjVlN2UtYjU0Ni00ZDQwLWJlNDctOTVkOGEwZmMwYmRl2AIG4AIB;sid=b8df97eb229f29315e29bc9c8c7ab1be;dest_id=3185;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=26;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;srepoch=1604421623;srpvid=1d9f753b1e3b013e;type=total;ucfs=1&#hotelTmpl",
+            "booking_href":"https://www.booking.com/hotel/us/white-sands-honolulu.en-gb.html?aid=397597",
         },
 
 
