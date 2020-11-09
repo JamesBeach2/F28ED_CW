@@ -1,0 +1,14 @@
+{
+	"hotels": [
+		{
+            "id":1,
+            "name":"Backpackers Vacation Inn and Plantation Village",
+            "desc":"gsegsegegsegsegseg",
+            "location":"Oahu",
+            "star_rating":1,
+            "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/124838483.webp?k=f013a96eab2e0cd34f027dc31f297cb78bb93fe8242942ab40d0bff02952798c&o=",
+            "booking_href":"https://www.booking.com/hotel/us/backpackers-vacation-inn-and-plantation-village.en-gb.html?aid=397597"
+		}
+	]
+
+}
