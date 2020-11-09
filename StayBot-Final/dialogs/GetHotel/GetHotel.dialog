@@ -91,6 +91,43 @@
             }
           ],
           "property": "user.star_rating"
+        },
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "QHDgeO"
+          },
+          "method": "GET",
+          "url": "http://localhost/hotels.json/hotels/island=${user.island}&star_rating=${user.star_rating}",
+          "resultProperty": "dialog.api_response",
+          "responseType": "json",
+          "contentType": "application/json"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "PfuP75"
+          },
+          "condition": "dialog.api_response.statusCode == 200",
+          "actions": [
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "dhUo2o"
+              },
+              "property": "dialog.hotel",
+              "value": "= dialog.api_response.content"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "qLaQWq"
+              },
+              "activity": "${SendActivity_qLaQWq()}"
+            }
+          ]
         }
       ]
     }

@@ -5,7 +5,7 @@
         {
             "id":1,
             "name":"Backpackers Vacation Inn and Plantation Village",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/124838483.webp?k=f013a96eab2e0cd34f027dc31f297cb78bb93fe8242942ab40d0bff02952798c&o=",
@@ -15,7 +15,7 @@
         {
             "id":2,
             "name":"Pacific Marina Inn",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/105261334.webp?k=8659992f2f2ca364459821cd7cb16829832daaf3c03b0e039c023205769c1061&o=",
@@ -25,7 +25,7 @@
         {
             "id":3,
             "name":"Ohia Waikiki Studio Suites",
-            "desc":,
+            "desc":"",
             "location":"Oahu"
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/163010402.webp?k=d9956a71a80528ab0482c2add5614e7d5bd84efb65ee4f0f054a9efeb6d145b2&o=",
@@ -35,7 +35,7 @@
         {
             "id":4,
             "name":"Waikiki Beach Condominiums",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/931843.webp?k=f9ecc0d952b29ace49ee7896fe7c433c43728036bdc7c6827a4c197711f6d507&o=",
@@ -46,7 +46,7 @@
         {
             "id":5,
             "name":"Castle Waikiki Grand Hotel",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/39959146.webp?k=032dee8db5ed41ee39b221d1dc10e0ac9480a02af3bafb4a58582e7bd7a9419c&o=",
@@ -57,7 +57,7 @@
         {
             "id":6,
             "name":"Marina Tower Waikiki",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/39403910.webp?k=abb36224f2cd820a749e21f6885dbf791aa600ef71c15468265dda6873353306&o=",
@@ -68,7 +68,7 @@
         {
             "id":7,
             "name":"Waikiki Monarch Hotel",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/225952029.webp?k=6e3d6ecc870760d70abadea0bce8e538875c8e977b7bce79d783cf715a415a41&o=",
@@ -77,7 +77,7 @@
         {
             "id":8,
             "name":"Ewa Hotel Waikiki"
-            "desc":,
+            "desc":"",
             "location":"Oahu"
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/162870744.webp?k=58ea04b8caf4504c5af73822a4c166d3369db91d58a674d3fa16a031dcfde02b&o=",
@@ -87,7 +87,7 @@
         {
             "id":9,
             "name":"Sheraton Princess Kaiulani",
-            "desc":,
+            "desc":"",
             "location":"Oahu"
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/253106772.webp?k=f033fabb12412642b97cb01e6bf2c1e0e474392446ab72d7679ddfd06eb5ebfa&o=",
@@ -97,7 +97,7 @@
         {
             "id":10,
             "name":"Pacific Monarch",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/163012812.webp?k=1b359bf642e8b44f4d5463162d43ff1825f3c927936d20a9ac6884ced933d34d&o=",
@@ -108,7 +108,7 @@
         {
             "id":11,
             "name":"Mokuleia Beach Houses at Owens Retreat",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/121922101.webp?k=5bee58e40c68adddc0b7f6ed72a71556427a1e278cc919fe81b67ec28b205ea1&o=",
@@ -119,7 +119,7 @@
         {
             "id":12,
             "name":"White Sands Hotel",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/269320982.webp?k=9dcf981b9732e52e016340d26ea8bcfe1e981b7b6b79688ec320c96657962fd4&o=",
@@ -130,7 +130,7 @@
         {
             "id":13,
             "name": "Hilton Hawaiian Village Waikiki Beach Resort",
-            "desc":,
+            "desc":"",
             "location": "Honolulu",
             "star_rating":4,
             "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/19010438.webp?k=a3adaf578dd2a3e4a6418fa5b811cfecb29bea4bfd4bbcc72058b49c4571cf43&o=",
@@ -140,7 +140,7 @@
         {
             "id":14,
             "name":"Hyatt Regency Maui Resort & Spa",
-            "desc":,
+            "desc":"",
             "location": "Maui",
             "star_rating":4,
             "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/228020335.webp?k=b207acc39e2d0e16dda7654183029bcea1cceee7a0b4a949bc6414508e5a65af&o=",
@@ -150,7 +150,7 @@
         {
             "id":15,
             "name": "Aston Maui Kaanapali Villas",
-            "desc":,
+            "desc":"",
             "location": "Maui",
             "star_rating":4,
             "image_href": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/65470362.webp?k=916b51339bbb348210feee0570a443bc2e96e6eeecb6abbfdc0ec589fe896ccb&o=",
@@ -160,7 +160,7 @@
         {
             "id":16,
             "name":"Andaz Maui at Wailea Resort",
-            "desc":,
+            "desc":"",
             "location":"Maui",
             "star_rating":4,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/110316499.webp?k=437e7292300537a3d49ac87114382a1c7296360e1d2c791a7fe55bc779d883a2&o=",
@@ -170,7 +170,7 @@
         {
             "id":17,
             "name":"Espacio The Jewel of Waikiki",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/215997946.webp?k=f83ef14c53f08c6dc0a221523c3386955a8a60a32dfc4d24b6beb80e9469a0a9&o=",
@@ -179,7 +179,7 @@
         {
             "id":18,
             "name":"The Kahala Hotel and Resort",
-            "desc":,
+            "desc":"",
             "location":"Oahu"
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/18678668.webp?k=43c3c8f3df966e33048a2550c73711bc611973d9aa770eaff8f2ec84c139d5a5&o=",
@@ -189,7 +189,7 @@
         {
             "id":19,
             "name":"The Residences Waikiki Beach Tower",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/164573944.webp?k=9660797319f57a4476b7bd86ce0e133eada6054e4fa969928daa0ae67a3db199&o=",
@@ -199,7 +199,7 @@
         {
             "id":20,
             "name":"The Ritz-Carlton Residences, Waikiki Beach Hotel",
-            "desc":,
+            "desc":"",
             "location":"Oahu",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/218392460.webp?k=40492e4f7366cdcd77d83f99dafde2082ba7f84ad0a6387b2387a20178bb9f2f&o=",
@@ -207,9 +207,9 @@
         },
 
         {
-            "id":,
+            "id":21,
             "name":"James Green Corner Hale",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/115480244.webp?k=097f6d48a729a12be07e31c3f60da8fe1306afbc7c8ffbc7654ad7e2f618e9da&o=",
@@ -217,9 +217,9 @@
         },
 
         {
-            "id":,
+            "id":22,
             "name":"Ali Hale",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":1,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/43923682.webp?k=21763b04511fcaf4bcbb7bb2694e4abbbeab463570edd7d2da251a3ec73d413e&o=",
@@ -227,9 +227,9 @@
         },
 
         {
-            "id":,
+            "id":23,
             "name":"Kona Seaside Hotel ",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/184804005.webp?k=de7874195a4acd4aa55de2a76f5d6c662f7376a1aeb8e42329225e450a092131&o=",
@@ -237,9 +237,9 @@
         },
 
         {
-            "id":,
+            "id":24,
             "name":"Hilo Seaside Hotel",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/267813046.webp?k=d8cb868f833d46168bfd94370520bfe10445d59d27ab72ec35a0ba6fc43bf417&o=",
@@ -247,9 +247,9 @@
         },
 
         {
-            "id":,
+            "id":25,
             "name":"Uncle Billy's Kona Bay Hotel",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/48335717.webp?k=2f5333a99e6c240c458968b77737eb3419563c0148b33008ff1d48574aa1fa15&o=",
@@ -257,9 +257,9 @@
         },
 
         {
-            "id":,
+            "id":26,
             "name":"Kona Islander",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/133420837.webp?k=48fef4bc94d982dbbc636bb243ec93de97fc19e0851d5da1eaf694c50ae88800&o=",
@@ -267,9 +267,9 @@
         },
 
         {
-            "id":,
+            "id":27,
             "name":"Ohana Halei Guest House",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":2,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/96053046.webp?k=8f9de6186af21e4aef0847cdaba5ad3583e4fc546ea96ba14e3922c80c50d597&o=",
@@ -277,9 +277,9 @@
         },
 
         {
-            "id":,
+            "id":28,
             "name":"Holua Resort",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":3,
             "image_href":,
@@ -287,9 +287,9 @@
         },
 
         {
-            "id":,
+            "id":29,
             "name":"Holua Resort",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/208955243.webp?k=687b7215798f131ac2e561f8ab7bd1dcfa0e555c2e9bcf3425d319a548cc2632&o=",
@@ -297,9 +297,9 @@
         },
 
         {
-            "id":,
+            "id":30,
             "name":"Royal Kona Resort",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/175926930.webp?k=9e5569ef24582f3f0464354c349a3e0788bb6cd3554114c8c56ed7ad2cbf6b92&o=",
@@ -307,9 +307,9 @@
         },
 
         {
-            "id":,
+            "id":31,
             "name":"Holiday Inn Express & Suites Kailua-Kona",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/247732383.webp?k=05fc5a4e6f2a68868e57a69582b5a5bd72b33d2c2b8439c49c6ab749a06652bb&o=",
@@ -317,9 +317,9 @@
         },
 
         {
-            "id":,
+            "id":32,
             "name":"Beach Villas at Kahalu'u",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":3,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/136493606.webp?k=26bc855c50396e4b0be26d7258d1e1e1bed8be1868649c74e97f0e4266d60ddf&o=",
@@ -327,7 +327,7 @@
         },
 
         {
-            "id":,
+            "id":33,
             "name":"Aston Kona By The Sea",
             "desc":,
             "location":"Island of Hawai'i",
@@ -337,9 +337,9 @@
         },
 
         {
-            "id":,
+            "id":34,
             "name":"Kings' Land by Hilton Grand Vacations Club",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":4,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/24737612.webp?k=8d41b738c53fbc7641ac77edf5e1d8e4108c2c379b1daefc9b88d0e6b92f8cc2&o=",
@@ -347,9 +347,9 @@
         },
 
         {
-            "id":,
+            "id":35,
             "name":"Castle Hilo Hawaiian Hotel",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":4,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/243244462.webp?k=f5d6b4c7b9c0c1afc16a05e84b64fc0c029e2e1421370470bf5ddd7ca8534ba4&o=",
@@ -357,9 +357,9 @@
         },
 
         {
-            "id":,
+            "id":36,
             "name":"Castle Halii Kai at Waikoloa",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":4,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/70965779.webp?k=76b57c0040ea20a1da0e24265b5065b723826199b276893983392ee403828ac0&o=",
@@ -367,9 +367,9 @@
         },
 
         {
-            "id":,
+            "id":37,
             "name":"Mauna Lani Point",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":4,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/228002381.webp?k=aea612ac9327de7d443254aa9d61f2e64d162250a832ddeada7bd127b1ae4367&o=",
@@ -377,9 +377,9 @@
         },
 
         {
-            "id":,
+            "id":38,
             "name":"Fairmont Orchid",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/21710008.webp?k=17bd3bbcf773686c4aa2a5329015da9c381a812c3e87ade1668d4835445d17d2&o=",
@@ -387,9 +387,9 @@
         },
 
         {
-            "id":,
+            "id":39,
             "name":"Holualoa Inn",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/46265190.webp?k=c4c5ff04bcadbbc230b6d4ee0b2164c51caf4c32c35aefb72f03ed995e213344&o=",
@@ -397,9 +397,9 @@
         },
 
         {
-            "id":,
+            "id":40,
             "name":"Aston Waikoloa Colony Villas",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/114543409.webp?k=e7dcdc30a7c1c6f3a4bf2f1bdc55ed2ac70886f73113ae8c4465a7d73b9748fc&o=",
@@ -407,9 +407,9 @@
         },
 
         {
-            "id":,
+            "id":41,
             "name":"Lilikoi Inn",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/31247412.webp?k=67d1caa79cf8da741fe27824ab3649a6274b95f473ba637737ff8984325e93b4&o=",
@@ -417,9 +417,9 @@
         },
 
         {
-            "id":,
+            "id":42,
             "name":"Volcano Big Tree Sanctuary",
-            "desc":,
+            "desc":"",
             "location":"Island of Hawai'i",
             "star_rating":5,
             "image_href":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/17337489.webp?k=7ffd40d88a95b233ec3d333bd16eefa636ee70ff952bc4df14b4bad633559e7f&o=",
