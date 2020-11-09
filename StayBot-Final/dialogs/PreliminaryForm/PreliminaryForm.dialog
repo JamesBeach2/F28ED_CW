@@ -1,0 +1,40 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "rMJQGC",
+    "name": "PreliminaryForm",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "YKS9is"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "RWkqlI"
+          },
+          "activity": "${SendActivity_RWkqlI()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "it2ini"
+          },
+          "activityProcessed": true,
+          "dialog": "GetHotel"
+        }
+      ]
+    }
+  ],
+  "generator": "PreliminaryForm.lg",
+  "recognizer": "PreliminaryForm.lu.qna",
+  "id": "PreliminaryForm"
+}

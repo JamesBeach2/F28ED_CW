@@ -1,0 +1,98 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "3nEFug",
+    "name": "ConsentForm",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "9FghJv"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "RyIga9"
+          },
+          "activity": "${SendActivity_RyIga9()}"
+        },
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "9VpgZo"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_9VpgZo()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true
+          },
+          "property": "user.consent",
+          "choices": [
+            {
+              "value": "Yes"
+            },
+            {
+              "value": "No"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "bogXy0"
+          },
+          "condition": "user.consent == 'Yes'",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "r28OId"
+              },
+              "activity": "${SendActivity_r28OId()}"
+            },
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "LnwKbp"
+              },
+              "activityProcessed": true,
+              "dialog": "PreliminaryForm"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "POpMNh"
+              },
+              "activity": "${SendActivity_POpMNh()}"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "pLc7Tn"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "ConsentForm.lg",
+  "recognizer": "ConsentForm.lu.qna",
+  "id": "ConsentForm"
+}
