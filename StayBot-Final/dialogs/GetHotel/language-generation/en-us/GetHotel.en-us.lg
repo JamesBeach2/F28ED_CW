@@ -6,5 +6,19 @@
 - Which island within Hawaii would you like to stay on?
 # ChoiceInput_Prompt_4cB8mK()
 - What star rating are you looking for?
-# SendActivity_oEVRAo()
-- TEST TEST TEST 
+# SendActivity_WqeXWy()
+[ThumbnailCard
+    title = ${dialog.foreach.value.name}
+    text = ${dialog.foreach.value.location}
+    images = ${dialog.foreach.value.image_href}
+]
+# SendActivity_gDv8R6()
+- Okay, here are your results!
+# ChoiceInput_Prompt_VBWLiW()
+- Do any of these resorts appeal to you?
+# ChoiceInput_Prompt_BhIaLE()
+- Would you like to try again?
+# SendActivity_qkK8Ix()
+- Okay, let's try that again
+# SendActivity_4fxZyP()
+- Great! let's move on to our last step of the experiment...

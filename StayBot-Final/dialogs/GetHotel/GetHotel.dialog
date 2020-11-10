@@ -587,7 +587,8 @@
           "choiceOptions": {
             "includeNumbers": true,
             "inlineOrMore": ", or ",
-            "inlineOr": " or "
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
           },
           "choices": [
             {
@@ -609,31 +610,153 @@
           "property": "user.star_rating"
         },
         {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "gDv8R6"
+          },
+          "activity": "${SendActivity_gDv8R6()}"
+        },
+        {
           "$kind": "Microsoft.Foreach",
           "$designer": {
             "id": "TSRE0S"
           },
           "index": "dialog.foreach.index",
           "value": "dialog.foreach.value",
-          "itemsProperty": "dialog.hotels",
+          "itemsProperty": "dialog.hotels.hotels",
           "actions": [
             {
               "$kind": "Microsoft.IfCondition",
               "$designer": {
-                "id": "i5IT3o"
+                "id": "Z9AzLH"
               },
-              "condition": "user.island == string(dialog.foreach.value.island)",
+              "condition": "user.island == dialog.foreach.value.location && int(user.star_rating) == dialog.foreach.value.star_rating",
               "actions": [
                 {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "oEVRAo"
+                    "id": "WqeXWy"
                   },
-                  "activity": "${SendActivity_oEVRAo()}"
+                  "activity": "${SendActivity_WqeXWy()}"
                 }
               ]
             }
           ]
+        },
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "VBWLiW"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_VBWLiW()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true
+          },
+          "choices": [
+            {
+              "value": "Yes"
+            },
+            {
+              "value": "No"
+            }
+          ],
+          "property": "user.satisfied"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "6KwDFA"
+          },
+          "condition": "user.satisfied == \"Yes\"",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.ChoiceInput",
+              "$designer": {
+                "id": "BhIaLE"
+              },
+              "defaultLocale": "en-us",
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "prompt": "${ChoiceInput_Prompt_BhIaLE()}",
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "choiceOptions": {
+                "includeNumbers": true,
+                "inlineOrMore": ", or ",
+                "inlineOr": " or "
+              },
+              "property": "user.retry",
+              "choices": [
+                {
+                  "value": "Yes"
+                },
+                {
+                  "value": "No"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "JJgXHl"
+              },
+              "condition": "user.retry == \"Yes\"",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "qkK8Ix"
+                  },
+                  "activity": "${SendActivity_qkK8Ix()}"
+                },
+                {
+                  "$kind": "Microsoft.DeleteProperties",
+                  "$designer": {
+                    "id": "Zqu83K"
+                  },
+                  "properties": [
+                    "user.island",
+                    "user.star_rating",
+                    "user.retry",
+                    "user.satisfied"
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.RepeatDialog",
+                  "$designer": {
+                    "id": "7BZJMy"
+                  },
+                  "activityProcessed": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "4fxZyP"
+          },
+          "activity": "${SendActivity_4fxZyP()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "ivco8C"
+          },
+          "activityProcessed": true,
+          "dialog": "SUS"
         }
       ]
     }

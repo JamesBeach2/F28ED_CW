@@ -1,0 +1,39 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "A5UVm4",
+    "name": "SUS",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "TOHlDe"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Au709S"
+          },
+          "activity": "${SendActivity_Au709S()}"
+        },
+        {
+          "$kind": "Microsoft.CancelAllDialogs",
+          "$designer": {
+            "id": "uGItgP"
+          },
+          "activityProcessed": true
+        }
+      ]
+    }
+  ],
+  "generator": "SUS.lg",
+  "recognizer": "SUS.lu.qna",
+  "id": "SUS"
+}
