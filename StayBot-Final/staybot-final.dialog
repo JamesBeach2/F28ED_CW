@@ -106,18 +106,18 @@
                     "id": "TLbBls"
                   },
                   "activity": "${SendActivity_TLbBls()}"
+                },
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "OrAW0e"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "ConsentForm"
                 }
               ]
             }
           ]
-        },
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "hjlzSI"
-          },
-          "activityProcessed": true,
-          "dialog": "ConsentForm"
         }
       ]
     },
