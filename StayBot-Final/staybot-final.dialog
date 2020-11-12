@@ -165,7 +165,7 @@
       },
       {
         "intent": "Cancel",
-        "pattern": "cancel|stop"
+        "pattern": "cancel"
       },
       {
         "intent": "Delete",
