@@ -33,6 +33,14 @@
               "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
               "actions": [
                 {
+                  "$kind": "Microsoft.SetProperty",
+                  "$designer": {
+                    "id": "IMLZTT"
+                  },
+                  "property": "user.id",
+                  "value": "= newGuid()"
+                },
+                {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
                     "id": "859266",
@@ -80,10 +88,11 @@
           "condition": "user.consent == \"No\"",
           "actions": [
             {
-              "$kind": "Microsoft.EndDialog",
+              "$kind": "Microsoft.CancelAllDialogs",
               "$designer": {
-                "id": "3DA6OF"
-              }
+                "id": "c2WN9o"
+              },
+              "activityProcessed": true
             }
           ]
         },
@@ -96,10 +105,71 @@
           "dialog": "GetHotel"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "WrjAWH",
+        "name": "Cancel"
+      },
+      "intent": "Cancel",
+      "actions": [
+        {
+          "$kind": "Microsoft.CancelAllDialogs",
+          "$designer": {
+            "id": "3iiR8u"
+          },
+          "activityProcessed": true
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "VxvWGr",
+        "name": "Delete"
+      },
+      "intent": "Delete",
+      "actions": [
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "touo68"
+          },
+          "properties": [
+            "user.island",
+            "user.satisfied",
+            "user.retry"
+          ]
+        },
+        {
+          "$kind": "Microsoft.CancelAllDialogs",
+          "$designer": {
+            "id": "ED1egV"
+          },
+          "activityProcessed": true
+        }
+      ]
     }
   ],
   "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
   "generator": "staybot-final.lg",
   "id": "StayBot-Final",
-  "recognizer": "staybot-final.lu.qna"
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": [
+      {
+        "intent": "startTelegram",
+        "pattern": "\\/start"
+      },
+      {
+        "intent": "Cancel",
+        "pattern": "cancel|stop"
+      },
+      {
+        "intent": "Delete",
+        "pattern": "delete"
+      }
+    ]
+  }
 }

@@ -82,10 +82,11 @@
               "activity": "${SendActivity_POpMNh()}"
             },
             {
-              "$kind": "Microsoft.EndDialog",
+              "$kind": "Microsoft.CancelAllDialogs",
               "$designer": {
-                "id": "pLc7Tn"
-              }
+                "id": "CoGs5T"
+              },
+              "activityProcessed": true
             }
           ]
         }
