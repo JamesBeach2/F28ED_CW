@@ -1,0 +1,60 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "F5izhf",
+    "name": "Delete",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "lXF4rQ"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "br8ANi"
+          },
+          "activity": "${SendActivity_br8ANi()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "DHcObo"
+          },
+          "properties": [
+            "user.id",
+            "user.consent",
+            "user.island",
+            "user.star_rating",
+            "user.satisfied",
+            "user.retry"
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Zv9OoE"
+          },
+          "activity": "${SendActivity_Zv9OoE()}"
+        },
+        {
+          "$kind": "Microsoft.CancelAllDialogs",
+          "$designer": {
+            "id": "zBAHcU"
+          },
+          "activityProcessed": true
+        }
+      ]
+    }
+  ],
+  "generator": "Delete.lg",
+  "recognizer": "Delete.lu.qna",
+  "id": "Delete"
+}

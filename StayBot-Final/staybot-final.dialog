@@ -119,32 +119,12 @@
       "intent": "Delete",
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "SH8TKk"
+            "id": "7lUPts"
           },
-          "activity": "${SendActivity_SH8TKk()}"
-        },
-        {
-          "$kind": "Microsoft.DeleteProperties",
-          "$designer": {
-            "id": "704I9f"
-          },
-          "properties": [
-            "user.consent",
-            "user.id",
-            "user.island",
-            "user,star_rating",
-            "user.satisfied",
-            "user.retry"
-          ]
-        },
-        {
-          "$kind": "Microsoft.CancelAllDialogs",
-          "$designer": {
-            "id": "SHToJF"
-          },
-          "activityProcessed": true
+          "activityProcessed": true,
+          "dialog": "Delete"
         }
       ]
     },
