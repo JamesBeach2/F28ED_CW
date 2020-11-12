@@ -159,11 +159,11 @@
       },
       {
         "intent": "Delete",
-        "pattern": "delete"
+        "pattern": "DELETE|Delete|delete"
       },
       {
         "intent": "cancel",
-        "pattern": "cancel"
+        "pattern": "CANCEL|Cancel|cancel"
       }
     ]
   }
