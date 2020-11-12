@@ -73,36 +73,51 @@
       "intent": "startTelegram",
       "actions": [
         {
-          "$kind": "Microsoft.BeginDialog",
+          "$kind": "Microsoft.Foreach",
           "$designer": {
-            "id": "raVkUp"
+            "id": "LWI7PU"
           },
-          "activityProcessed": true,
-          "dialog": "ConsentForm"
-        },
-        {
-          "$kind": "Microsoft.IfCondition",
-          "$designer": {
-            "id": "NzmzUc"
-          },
-          "condition": "user.consent == \"No\"",
+          "index": "dialog.foreach.index",
+          "value": "dialog.foreach.value",
+          "itemsProperty": "turn.Activity.membersAdded",
           "actions": [
             {
-              "$kind": "Microsoft.CancelAllDialogs",
+              "$kind": "Microsoft.IfCondition",
               "$designer": {
-                "id": "c2WN9o"
+                "id": "b0Z0AX"
               },
-              "activityProcessed": true
+              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "uSSQbL"
+                  },
+                  "assignments": [
+                    {
+                      "property": "user.id",
+                      "value": "= newGuid()"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "TLbBls"
+                  },
+                  "activity": "${SendActivity_TLbBls()}"
+                },
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "KJ8k63"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "ConsentForm"
+                }
+              ]
             }
           ]
-        },
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "72QbQF"
-          },
-          "activityProcessed": true,
-          "dialog": "GetHotel"
         }
       ]
     },
