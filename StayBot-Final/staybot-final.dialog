@@ -89,7 +89,8 @@
             "user.island",
             "user.star_rating",
             "user.satisfied",
-            "user.retry"
+            "user.retry",
+            "user.consent"
           ]
         },
         {
