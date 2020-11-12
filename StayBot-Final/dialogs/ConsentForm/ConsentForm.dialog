@@ -32,7 +32,7 @@
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
-          "allowInterruptions": false,
+          "allowInterruptions": true,
           "prompt": "${ChoiceInput_Prompt_9VpgZo()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
@@ -48,7 +48,10 @@
             {
               "value": "No"
             }
-          ]
+          ],
+          "recognizerOptions": {
+            "recognizeOrdinals": true
+          }
         },
         {
           "$kind": "Microsoft.IfCondition",

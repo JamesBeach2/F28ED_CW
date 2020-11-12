@@ -547,7 +547,7 @@
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
-          "allowInterruptions": false,
+          "allowInterruptions": true,
           "prompt": "${ChoiceInput_Prompt_mmXbzZ()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
@@ -555,7 +555,8 @@
           "choiceOptions": {
             "includeNumbers": true,
             "inlineOrMore": ", or ",
-            "inlineOr": " or "
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
           },
           "choices": [
             {
@@ -568,7 +569,11 @@
               "value": "Island of Hawai'i"
             }
           ],
-          "property": "user.island"
+          "property": "user.island",
+          "recognizerOptions": {
+            "recognizeOrdinals": true,
+            "recognizeNumbers": true
+          }
         },
         {
           "$kind": "Microsoft.ChoiceInput",
@@ -579,7 +584,7 @@
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
-          "allowInterruptions": false,
+          "allowInterruptions": true,
           "prompt": "${ChoiceInput_Prompt_4cB8mK()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
@@ -607,7 +612,10 @@
               "value": "5"
             }
           ],
-          "property": "user.star_rating"
+          "property": "user.star_rating",
+          "recognizerOptions": {
+            "recognizeOrdinals": true
+          }
         },
         {
           "$kind": "Microsoft.SendActivity",
@@ -652,7 +660,7 @@
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
-          "allowInterruptions": false,
+          "allowInterruptions": true,
           "prompt": "${ChoiceInput_Prompt_VBWLiW()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
@@ -668,7 +676,10 @@
               "value": "No"
             }
           ],
-          "property": "user.satisfied"
+          "property": "user.satisfied",
+          "recognizerOptions": {
+            "recognizeOrdinals": true
+          }
         },
         {
           "$kind": "Microsoft.IfCondition",
@@ -686,7 +697,7 @@
               "disabled": false,
               "maxTurnCount": 3,
               "alwaysPrompt": false,
-              "allowInterruptions": false,
+              "allowInterruptions": true,
               "prompt": "${ChoiceInput_Prompt_BhIaLE()}",
               "unrecognizedPrompt": "",
               "invalidPrompt": "",
@@ -704,7 +715,10 @@
                 {
                   "value": "No"
                 }
-              ]
+              ],
+              "recognizerOptions": {
+                "recognizeOrdinals": true
+              }
             },
             {
               "$kind": "Microsoft.IfCondition",

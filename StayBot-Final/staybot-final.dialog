@@ -113,30 +113,6 @@
     {
       "$kind": "Microsoft.OnIntent",
       "$designer": {
-        "id": "WrjAWH",
-        "name": "Cancel"
-      },
-      "intent": "Cancel",
-      "actions": [
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "pgFb26"
-          },
-          "activity": "${SendActivity_pgFb26()}"
-        },
-        {
-          "$kind": "Microsoft.CancelAllDialogs",
-          "$designer": {
-            "id": "W8Vubw"
-          },
-          "activityProcessed": true
-        }
-      ]
-    },
-    {
-      "$kind": "Microsoft.OnIntent",
-      "$designer": {
         "id": "VxvWGr",
         "name": "Delete"
       },
@@ -171,6 +147,24 @@
           "activityProcessed": true
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "IiQPmN",
+        "name": "cancel"
+      },
+      "intent": "cancel",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Z50vlu"
+          },
+          "activityProcessed": true,
+          "dialog": "cancel"
+        }
+      ]
     }
   ],
   "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
@@ -184,12 +178,12 @@
         "pattern": "\\/start"
       },
       {
-        "intent": "Cancel",
-        "pattern": "cancel"
-      },
-      {
         "intent": "Delete",
         "pattern": "delete"
+      },
+      {
+        "intent": "cancel",
+        "pattern": "cancel"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
-    "id": "NUTZAN",
+    "id": "h0rsuV",
     "name": "cancel",
     "description": ""
   },
@@ -13,9 +13,31 @@
       "$designer": {
         "name": "BeginDialog",
         "description": "",
-        "id": "jGktHV"
+        "id": "Xj7AkF"
       },
-      "actions": []
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Kr3hpE"
+          },
+          "activity": "${SendActivity_Kr3hpE()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "8agPd9"
+          },
+          "activity": "${SendActivity_8agPd9()}"
+        },
+        {
+          "$kind": "Microsoft.CancelAllDialogs",
+          "$designer": {
+            "id": "lYC3Ii"
+          },
+          "activityProcessed": true
+        }
+      ]
     }
   ],
   "generator": "cancel.lg",
