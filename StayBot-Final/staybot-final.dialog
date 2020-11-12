@@ -81,6 +81,18 @@
           "value": "= newGuid()"
         },
         {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "ktaKn4"
+          },
+          "properties": [
+            "user.island",
+            "user.star_rating",
+            "user.satisfied",
+            "user.retry"
+          ]
+        },
+        {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
             "id": "MLjcf9"
