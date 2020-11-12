@@ -119,11 +119,12 @@
       "intent": "Cancel",
       "actions": [
         {
-          "$kind": "Microsoft.CancelAllDialogs",
+          "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "3iiR8u"
+            "id": "B3VFGb"
           },
-          "activityProcessed": true
+          "activityProcessed": true,
+          "dialog": "cancel"
         }
       ]
     },
@@ -138,21 +139,16 @@
         {
           "$kind": "Microsoft.DeleteProperties",
           "$designer": {
-            "id": "touo68"
+            "id": "704I9f"
           },
           "properties": [
+            "user.consent",
+            "user.id",
             "user.island",
+            "user,star_rating",
             "user.satisfied",
-            "user.retry",
-            "user.consent"
+            "user.retry"
           ]
-        },
-        {
-          "$kind": "Microsoft.CancelAllDialogs",
-          "$designer": {
-            "id": "ED1egV"
-          },
-          "activityProcessed": true
         }
       ]
     }
