@@ -55,6 +55,47 @@
           "index": "dialog.foreach.index"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "BeyKiw",
+        "name": "startTelegram"
+      },
+      "intent": "startTelegram",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "raVkUp"
+          },
+          "activityProcessed": true,
+          "dialog": "ConsentForm"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "NzmzUc"
+          },
+          "condition": "user.consent == \"No\"",
+          "actions": [
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "3DA6OF"
+              }
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "72QbQF"
+          },
+          "activityProcessed": true,
+          "dialog": "GetHotel"
+        }
+      ]
     }
   ],
   "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
