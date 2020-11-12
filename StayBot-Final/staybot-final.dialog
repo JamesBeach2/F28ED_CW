@@ -73,51 +73,27 @@
       "intent": "startTelegram",
       "actions": [
         {
-          "$kind": "Microsoft.Foreach",
+          "$kind": "Microsoft.SetProperty",
           "$designer": {
-            "id": "LWI7PU"
+            "id": "byzYSl"
           },
-          "index": "dialog.foreach.index",
-          "value": "dialog.foreach.value",
-          "itemsProperty": "turn.Activity.membersAdded",
-          "actions": [
-            {
-              "$kind": "Microsoft.IfCondition",
-              "$designer": {
-                "id": "b0Z0AX"
-              },
-              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SetProperties",
-                  "$designer": {
-                    "id": "uSSQbL"
-                  },
-                  "assignments": [
-                    {
-                      "property": "user.id",
-                      "value": "= newGuid()"
-                    }
-                  ]
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "TLbBls"
-                  },
-                  "activity": "${SendActivity_TLbBls()}"
-                },
-                {
-                  "$kind": "Microsoft.BeginDialog",
-                  "$designer": {
-                    "id": "OrAW0e"
-                  },
-                  "activityProcessed": true,
-                  "dialog": "ConsentForm"
-                }
-              ]
-            }
-          ]
+          "property": "user.id",
+          "value": "= newGuid()"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "MLjcf9"
+          },
+          "activity": "${SendActivity_MLjcf9()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "lFCF5u"
+          },
+          "activityProcessed": true,
+          "dialog": "ConsentForm"
         }
       ]
     },
