@@ -142,7 +142,8 @@
           "properties": [
             "user.island",
             "user.satisfied",
-            "user.retry"
+            "user.retry",
+            "user.consent"
           ]
         },
         {
