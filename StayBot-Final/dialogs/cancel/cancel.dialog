@@ -15,15 +15,7 @@
         "description": "",
         "id": "jGktHV"
       },
-      "actions": [
-        {
-          "$kind": "Microsoft.CancelAllDialogs",
-          "$designer": {
-            "id": "J4uTIk"
-          },
-          "activityProcessed": true
-        }
-      ]
+      "actions": []
     }
   ],
   "generator": "cancel.lg",
